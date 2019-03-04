@@ -18,8 +18,9 @@ function deepestChild() {
   
   for (var i = 0; i < deep.length-1; i ++) {
     var result = deep[i].querySelector("div");
-    return result;
+    
   }
+  return result;
 }
 
 
